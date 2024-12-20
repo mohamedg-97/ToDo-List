@@ -1,0 +1,74 @@
+body {
+  background-color:  #7AB2B2;
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+.App {
+  border: 2px  solid #000000;
+  text-align: center;
+  border-radius: 25px;
+  max-width: 400px;
+  margin: auto;
+  margin-top: 100px;
+  padding: 10px 0;
+ 
+}
+.App h2 {
+  color: #ff531f;
+ font-size: 40px;
+}
+.App ul {
+  list-style: "⏱️";
+  cursor: pointer;
+  font-size: 25px ;
+  color: #000000;
+  margin: 0px 30px;
+}
+.App input {
+  height: 27px;
+  width: 250px;
+  padding-left: 2px;
+  margin-top: 5px;
+  border-radius: 10px;
+  margin: 20px;
+}
+.App button {
+  display: block;
+  margin: auto;
+  width: 100px;
+  height: 30px;
+  background-color: #ff531f;
+  color: #fff;
+  border-radius: 10px;
+  border: 0;
+  font-size: 20px;
+}
+.App ul li {
+  word-wrap: break-word;
+  word-break: break-all;
+}
+.diffstyle {
+  list-style: "✔️";
+  text-decoration: line-through;
+  
+}
+.div10 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 576px) {
+  .App {
+    max-width: 90%;
+    margin-top: 20px;
+  }
+
+  .App h2 {
+    font-size: 20px;
+  }
+
+  .App input,
+  .App button{
+    font-size: 15px;
+  }
+}
